@@ -1,0 +1,30 @@
+{
+  "name": "talent-review-workbench",
+  "version": "2.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev -H 127.0.0.1",
+    "build": "next build",
+    "start": "next start",
+    "test": "vitest run",
+    "typecheck": "tsc --noEmit",
+    "snapshot": "tsx scripts/generate-snapshot.ts"
+  },
+  "dependencies": {
+    "next": "15.5.29",
+    "react": "^19.2.0",
+    "react-dom": "^19.2.0",
+    "zod": "^3.25.0",
+    "lucide-react": "^0.577.0"
+  },
+  "devDependencies": {
+    "typescript": "^5.9.0",
+    "@types/node": "^24",
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
+    "tailwindcss": "^4.1",
+    "@tailwindcss/postcss": "^4.1",
+    "vitest": "^4",
+    "tsx": "^4"
+  }
+}
